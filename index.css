@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(53, 214, 21);
+}
+
+nav ul{
+    display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 16px;
+   background-color: rgb(0, 23, 156);
+}
+
+nav ul li {
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.instagram{
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   padding: 16px;
+background-color: rgb(53, 214, 21);
+display: flex;
+align-items: center;
+margin: 0;
+    padding: 0;
+
+}
+
+.foto{
+    display: flex;
+    justify-content: relative;
+    align-items: relative;
+    position: relative;
+}
+
+.servicos{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5;
+
+}
+.portfolio{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.2;
+
+}
+
+.vindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-shadow: 2px 2px;
+    color: rgb(0, 0, 0);
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+}
+
+.ctt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.botao{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+ transform: translate(-50%, -50%);
+ transform: scale(2.2);
+}
+
+.meus{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
